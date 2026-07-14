@@ -18,7 +18,7 @@
                 style="text-decoration: none; color: var(--text-secondary); margin-bottom: 2rem; display: inline-block;">←
                 Back to Home</a>
             <h1>Privacy Policy</h1>
-            <p class="subtitle">Last Updated: July 10, 2026</p>
+            <p class="subtitle">Last Updated: July 14, 2026</p>
         </header>
 
         <main class="content-card policy-content">
@@ -37,21 +37,24 @@
 
             <section>
                 <h2>2. Information We Collect and Process</h2>
-                <p><strong>Melovo does not collect, transmit, or share any personal data or usage data from your
-                        device.</strong> The app is designed to operate entirely on-device:</p>
+                <p>Melovo is designed to minimize data collection. Your music library, playlists, playback history, and
+                    settings are stored locally on your device and are never uploaded to our servers. To support
+                    analytics, advertising, and stability improvements, limited data is transmitted to third-party
+                    service providers as described below:</p>
                 <ul>
-                    <li><strong>All data stays on your device.</strong> Your music library, playlists, playback history,
-                        settings, and preferences are stored locally using the device's standard local storage. They are
-                        never uploaded to our servers or to any third party.</li>
-                    <li><strong>No usage or analytics data is collected.</strong> We do not track what songs you play,
-                        how long you listen, which screens you visit, or any other usage behavior.</li>
-                    <li><strong>No device identifiers are collected.</strong> We do not access the IDFA (Identifier for
-                        Advertisers), device ID, advertising ID, or any persistent device identifier.</li>
-                    <li><strong>No crash reports are sent automatically.</strong> The app does not include any crash
-                        reporting SDK.</li>
+                    <li><strong>Device ID (Identifier for Advertisers / IDFA):</strong> Used for third-party advertising
+                        and analytics. This data is linked to your identity and used for tracking purposes (e.g.,
+                        delivering relevant ads and measuring ad performance).</li>
+                    <li><strong>Product Interaction:</strong> Such as app launches, taps, and listening behavior. Used
+                        for analytics and third-party advertising. This data is linked to your identity and used for
+                        tracking purposes.</li>
+                    <li><strong>Advertising Data:</strong> Such as which ads you have seen. Used for third-party
+                        advertising. This data is linked to your identity and used for tracking purposes.</li>
+                    <li><strong>Crash Data:</strong> Such as crash logs, used for analytics to improve app stability.
+                        This data is collected in a form that is not linked to your identity.</li>
                 </ul>
-                <p>Because Melovo collects nothing, there is no personal information, payment data, contacts, location,
-                    microphone, or camera data being collected, used, or transmitted by us.</p>
+                <p>We do not collect sensitive personal information such as payment card details, contacts, precise
+                    location, microphone recordings, or camera recordings for core app operation.</p>
             </section>
 
             <section>
@@ -69,17 +72,22 @@
 
             <section>
                 <h2>4. Third-Party Services & Data Collection</h2>
-                <p><strong>Melovo does not integrate any third-party analytics, advertising, tracking, or crash
-                        reporting SDK.</strong> Specifically:</p>
+                <p>Melovo integrates the following third-party SDKs to support analytics, advertising, and stability
+                    improvements. These providers may collect and process data in accordance with their own privacy
+                    policies:</p>
                 <ul>
-                    <li>No analytics services (such as Firebase Analytics, Google Analytics, Sentry, Amplitude, or
-                        Mixpanel) are integrated.</li>
-                    <li>No advertising networks (such as Google AdMob, Meta Audience Network, or Unity Ads) are
-                        integrated.</li>
-                    <li>No user tracking SDKs are integrated. The app does not use the AppTrackingTransparency framework
-                        because it does not track users.</li>
-                    <li>No crash reporting or performance monitoring SDKs are integrated.</li>
+                    <li><strong>Firebase Analytics</strong> (Google LLC): Used to understand app usage, performance, and
+                        stability. May process product interaction and crash data. See the
+                        <a href="https://firebase.google.com/support/privacy" style="color: var(--primary-color);">Firebase Privacy Policy</a>.</li>
+                    <li><strong>Google AdMob &amp; User Messaging Platform (UMP)</strong> (Google LLC): Used to display
+                        ads and manage consent. May process device ID (IDFA) and advertising data for ad delivery and
+                        measurement. See the
+                        <a href="https://policies.google.com/privacy" style="color: var(--primary-color);">Google Privacy Policy</a>.</li>
                 </ul>
+                <p><strong>Tracking &amp; AppTrackingTransparency (ATT):</strong> Where used for tracking as described
+                    above, Melovo requests your permission through Apple's AppTrackingTransparency framework before
+                    accessing the IDFA. You may decline, and the app will continue to function; only personalized ads
+                    and tracking-related data collection will be limited.</p>
                 <p>When the app fetches public music-related metadata (such as cover artwork or lyrics) from public
                     sources, such requests are made only to retrieve publicly available content and do not include your
                     personal data or device identifiers.</p>
@@ -87,10 +95,10 @@
 
             <section>
                 <h2>5. Data Security</h2>
-                <p>We take data security seriously. Although we do not collect your personal data, we ensure that all
-                    network requests (e.g., for fetching music lists or covers) are transmitted via encrypted secure
-                    protocols (HTTPS/TLS). Please note that while we strive to protect your info, no transmission over
-                    the internet can be guaranteed as 100% secure.</p>
+                <p>We take data security seriously. All network requests (e.g., for fetching music lists, covers, or
+                    ad/analytics data) are transmitted via encrypted secure protocols (HTTPS/TLS). Please note that
+                    while we strive to protect your information, no transmission over the internet can be guaranteed as
+                    100% secure.</p>
             </section>
 
             <section>
@@ -104,7 +112,12 @@
                 <h2>7. Your Rights and Choices</h2>
                 <p>You have the following rights:</p>
                 <ul>
-                    <li><strong>Stop Data Transmission:</strong> You can limit future data interaction by uninstalling
+                    <li><strong>Tracking Choice (ATT):</strong> You can grant or deny permission for tracking via the
+                        AppTrackingTransparency prompt. You may change this choice at any time in iOS Settings → Privacy
+                        &amp; Security → Tracking.</li>
+                    <li><strong>Advertising Consent (UMP):</strong> You can review or update your advertising consent
+                        choices through the in-app privacy options, where available.</li>
+                    <li><strong>Stop Data Transmission:</strong> You can limit future data collection by uninstalling
                         the application.</li>
                     <li><strong>Contact Us:</strong> For any privacy-related questions, you can reach out to us
                         directly.</li>
